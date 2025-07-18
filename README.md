@@ -26,7 +26,7 @@ Body:
 Returns access and refresh tokens.
 Use Authorization header: Bearer <access_token>
 API Endpoints
-- POST /api/login/ — JWT login
+- POST auth/token/ — JWT login
 - GET/POST /api/jobs/ — List & create jobs
 - PUT/DELETE /api/jobs/<id>/ — Update & delete jobs
 - GET /api/applications/ — View applicants
