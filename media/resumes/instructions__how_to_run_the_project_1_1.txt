@@ -1,0 +1,19 @@
+Step 1: Go to Your Project Folder
+	C:\Users\pc\OneDrive\Documents\documents\TailWebs
+Step 2: Create a Virtual Environment
+	C:\Users\pc\OneDrive\Documents\documents\TailWebs>python -m venv virtual
+Step 3: Activate the Virtual Environment
+	C:\Users\pc\OneDrive\Documents\documents\TailWebs>cd virtual
+
+	C:\Users\pc\OneDrive\Documents\documents\TailWebs\virtual>Scripts\activate
+Step 4: Install Django
+	pip install django
+Step 5: Run Migrations
+	python manage.py makemigrations
+	python manage.py migrate
+Step 6: Create a Superuser
+	python manage.py createsuperuser
+Step 7: Run the Server using this command
+	python manage.py runserver
+
+	
